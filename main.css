@@ -270,15 +270,27 @@ article img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (min-width:41em) {
+    #ingelogd .storyBlocks {
     justify-content: start;
     margin-left: 3rem;
+    }
 }
 
 #ingelogd h2 {
+    text-align: center;
     color: #2800a0;
+}
+
+@media only screen and (min-width:41em) {
+#ingelogd h2 {
     margin-left: 1.5rem;
     margin-top: 2rem;
     text-align: left;
+    }
 }
 
 .storyBlocks article {
