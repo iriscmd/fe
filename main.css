@@ -307,8 +307,16 @@ span {
     display: grid;
     grid-gap: 1em;
     justify-content: center;
-    padding: 5rem;
+    padding: 2rem;
 }
+
+@media only screen and (min-width:40em) {
+    .gridlayout {
+        padding: 5rem;
+    }
+}
+
+
 
 .aanbevolen h2 {
     color: #00d66c;
