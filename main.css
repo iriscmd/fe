@@ -45,7 +45,13 @@ nav a {
     font-family: "NexaBold";
     text-decoration: none;
     margin-bottom: 1rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
+}
+
+@media only screen and (min-width:40em) {
+    nav a {
+        margin-right: 1rem;
+    }
 }
 
 
